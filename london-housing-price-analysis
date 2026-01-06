@@ -1,1 +1,40 @@
+# London Housing Price Analysis – Interpretable Regression Models
+
+## Business Context
+Understanding the factors that drive housing prices is essential for investment, valuation, and market analysis. This project analyzes housing data from London to identify key price drivers and build an interpretable model for reliable price estimation.
+
+## Objective
+- Identify the most influential variables affecting housing prices
+- Build and validate an interpretable regression model
+- Translate statistical results into actionable insights
+
+## Data Overview
+- Dataset: London Houses
+- Observations: 1,000 properties
+- Features: property characteristics, amenities, materials, and location attributes
+
+## Methodology
+- Data cleaning and feature engineering
+- Dummy variable encoding
+- Linear regression modeling
+- Assumption validation (linearity, multicollinearity, independence, homoscedasticity, normality)
+- Log-transformation to improve model stability
+
+## Key Insights
+- Property type and size are the strongest drivers of price
+- Amenities and materials contribute secondary but meaningful value
+- Log-transformation significantly improved model performance and residual behavior
+
+## Model Performance
+- Adjusted R² (log model): ~0.77 (test set)
+- Stable RMSE across train and test sets
+- Improved generalization after transformation
+
+## Limitations & Next Steps
+- The model captures linear relationships only
+- Predictions should be used as decision support, not final appraisals
+- Future work may include interaction terms, non-linear models, or additional location-level features
+
+## Tools
+Python, pandas, numpy, scikit-learn, statsmodels, matplotlib, seaborn
 
