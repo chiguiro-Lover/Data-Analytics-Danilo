@@ -34,7 +34,7 @@ ready for Exploratory Data Analysis (EDA) and Business Intelligence tools.
 
 The project follows a modular ETL design:
 
-## ⚙️ Pipeline Components
+## Pipeline Components
 
 ### 1. Extract
 - Retrieves match IDs per summoner and queue type
