@@ -24,9 +24,6 @@ ready for Exploratory Data Analysis (EDA) and Business Intelligence tools.
 - **Ranked Solo/Duo (Queue ID: 420)**
 - **Ranked Flex (Queue ID: 440)**
 
-### Time Window
-- Matches played **from January 1st, 2025 onward**
-- All available matches per player within this period
 
 ---
 
